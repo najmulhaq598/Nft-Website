@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar-area{
+    background: #120D18
+}
+
+.nav-item a{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.nav-item a:hover{
+    color: #c4c4c4
+
+}
+.input_icons{
+    position: relative;
+    margin-left: 50px;
+}
+.input_icons i{
+    position: absolute;
+    color: #E2E2E2;
+    left: 10px;
+    top: 10px;
+    font-size: 16px;
+}
+.icon{
+
+}
+.input_field{
+    
+    padding: 5px 0px 5px 30px;
+    border-radius: 25px;
+    background: transparent;
+    border: 1px solid #E2E2E2;
+    outline: none;
+    color: #E2E2E2;
+    position: relative;
+}
+.nav_button1{
+    background: #fff;
+    padding: 5px 20px;
+}
+.nav_button1:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 20px;
+}
+.nav_button2{
+    border: 1px solid #fff;
+    padding: 5px 30px;
+    color: #fff
+}
+.nav_button2:hover{
+    background: #fff;
+    color: #120D18;
+}
+
+
+/* hERO sTART hERE */
+.hero-area{
+    background-image: url(../img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero_text{
+    padding: 90px 0;
+}
+.hero_button1{
+    background: #635EFF;
+    padding: 5px 20px;
+    color: #fff;
+}
+.hero_button1:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 20px;
+}
+.hero_button2{
+    border: 1px solid #fff;
+    padding: 5px 30px;
+    color: #fff
+}
+.hero_button2:hover{
+    background: #fff;
+    color: #120D18;
+}
+
+/* hERO eND hERE */
+
+/* cOLLECTION aREA sTART hERE */
+.collection-area{
+    padding-bottom: 100px;
+    background: #F4F4F4;;
+}
+.card_top i{
+    float: right;
+    font-size: 18px;
+    color: #8D92A3
+}
+.card_time {
+    width: 50%;
+    background: #fff;
+    border-radius: 5px; 
+    padding: 8px;
+    position: absolute;
+    left: 18px;
+    bottom: 147px;
+    border: 1px solid #B4B0AE;
+    
+}
+.card_time p {
+    display: inline;
+}
+.collection_card_body a{
+    text-decoration: none;
+    color: #116DFF;
+    font-weight: 500;
+    font-size: 18px;
+}
+.collection_card_body h4{
+    color: #7B7B7B;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.collection_card_body p{
+    color: #464646;
+    font-size: 18px;
+}
+/* cOLLECTION eND hERE */
+
+/* wORKS sTART hERE */
+.works_card{
+    margin-bottom: 40px;
+}
+.card-body h5{
+    font-size: 26px;
+    font-weight: 600;
+    color: #232323;
+    padding: 20px 0px;
+
+}
+.card-body h6{
+    font-size: 21px;
+    color: #464646;
+}
+.card-body p{
+    color: #666666;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 0;
+}
+.card-body p span{
+    display: block;
+    padding: 10px 0;
+    letter-spacing: 0.3px;
+}
+.works_btn{
+    border: 1px solid #232323;
+    border-radius: 50px;
+    padding: 15px 60px;
+    font-size: 18px;
+}
+/* wORKS eND hERE */
+
+
+/* sELLER sTART hERE */
+.seller-area{
+    background: #F4F4F4;
+}
+.seller_card{
+    overflow: hidden;
+    border-bottom: 1px solid #9C9C9C;
+    padding: 16px 0;
+    width: 100%;
+    margin-top: 15px;
+}
+.seller_card_left{
+    width: 30%;
+    float: left;
+}
+.seller_card_left p{
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    background: #1F142C0F;
+    padding: 10px 12px;
+    border-radius: 25px;
+}
+.seller_card_left img{
+    width: 50px;
+}
+
+.seller_card_midle{
+    width: 45%;
+    float: left;
+}
+.seller_card_midle h5{
+    font-size: 15px;
+    color: #232323;
+}
+.seller_card_midle h6{
+    color: #1365E8;
+    font-weight: 600;
+}
+.seller_card_right{
+    width: 25%;
+    float: right;
+}
+.seller_card_right h6{
+    color: #1365E8;
+    font-weight: 600;
+    text-align: right;
+}
+.seller_button{
+    border: 1px solid #464646;
+    margin: 0 auto;
+    width: 140px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* sELLER eND hERE */
+/* pERTNER aREA sATART hERE */
+.partner_card_body {
+
+}
+.partner_card_body a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #232323;
+}
+.partner_card_body p{
+    font-size: 18px;
+    color:#232323;
+}
+.partner_btn{
+    border: 1px solid #232323;
+    color: #232323;
+    font-size: 16px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+/* pERTNER aREA eND hERE */
+
+/* fOOTER aREA sTART hERE */
+.footer-area{
+    background: #100A18;
+}
+.footer_wrapper{
+    border-bottom: 1px solid #292929;
+}
+.footer-area h5{
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    padding-top: 50px;
+}
+.discord_btn{
+    display: block;
+    max-width: 320px;
+    margin: auto;
+    border: 1px solid #fff;
+    padding: 10px 64px;
+    color: #fff;
+    background: transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 26px;
+    margin-bottom: 50px;
+}
+.discord_btn:hover{
+    background: #fff;
+    color: #000;
+}
+.footer_left img{
+    width: 120px;
+    margin-bottom: 40px;
+}
+.footer_left p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.footer_left_icon{
+    margin-bottom: 40px;
+}
+.footer_left_icon i{
+    font-size: 16px;
+    background: #2A2630;
+    color: #fff;
+    border-radius: 30px;
+    margin-right: 8px;
+    cursor: pointer;
+    
+}
+.fa-discord{ padding: 14px 12px;}
+.fa-linkedin-in{ padding: 14px 16px;}
+.fa-facebook-f{ padding: 14px 18px;}
+.fa-twitter{padding: 14px 14px;}
+
+.footer_midle, .footer_right h4{
+    color: #fff;
+    font-size: 18px;
+}
+.footer_midle ul{
+    list-style: none;
+    
+}
+.footer_midle ul li{
+    padding: 4px 0px;
+}
+.footer_midle ul li a{
+    text-decoration: none;
+    color: #E5E5E5;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer_right input{
+    padding: 14px 20px;
+    outline: none;
+    border-radius: 50px;
+    width: 100%;
+}
+.footer_btn{
+    background: #635EFF;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+
+
+}
+.copyright{
+    font-size: 14px;
+    color: #fff;
+    padding: 30px 0px;
+}
+.copyright_right{
+    
+    padding: 30px 0px;
+}
+.copyright_right a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 40px;
+}
+/* fOOTER eND sTART hERE */
